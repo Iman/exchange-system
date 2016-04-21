@@ -39,10 +39,15 @@ sell orders should be negated
 - A Unix compatible shell
 
 ##Build
-`sbt clean compile`
+```
+sbt clean compile
+```
 
 ##Test
-`sbt clean test`
+```
+sbt clean test
 
-###Acceptance
-`sbt clean test:test-only *ExchangeServiceTest.scala`
+or
+
+sbt clean test:test-only *ExchangeServiceTest.scala
+```
